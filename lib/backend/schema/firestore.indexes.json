@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "coment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "producto",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tiempBy",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
